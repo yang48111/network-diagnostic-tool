@@ -1,20 +1,27 @@
 # Network Diagnostic Tool
 
-A Windows network diagnostic tool built with Python.
+A Windows network diagnostic and monitoring tool built with Python.
 
 ## Features
 
-- Display network information
-- Ping test
-- Gateway detection
-- Internet connectivity test
-- DNS test
-- Network stability test
-- Packet loss analysis
-- Latency analysis
-- Jitter analysis
+- Wi-Fi information
+- Default gateway detection
+- Ping analysis
+- Packet loss monitoring
+- Latency and jitter analysis
+- DNS diagnostics
+- Network stability testing
+- Real-time latency chart
+- TXT / CSV reports
+- Windows GUI
+- Multi-threaded network testing
 
-## Run
+## Requirements
+
+- Windows 10 / 11
+- Python 3
+
+## Install
 
 ```bash
-python main.py
+python -m pip install -r requirements.txt
